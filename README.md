@@ -25,7 +25,7 @@ pip3 install datasets transformers[torch]==4.43.3 jupyter nltk rouge-score wheel
 pip3 install flash-attn==2.6.3 --no-build-isolation
 ```
 
-## dataset setup
+## Dataset setup
 By default, all data and result files are stored in the ‘workspace’ directory. If this directory does not exist, it will be automatically created during processing.
 
 For InfBench evaluation, you need to download the required data first. Run the following commands while inside this repository:
